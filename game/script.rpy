@@ -5,6 +5,11 @@
 
 define e = Character("Eileen")
 
+label before_main_menu:
+    play music "overture_init.ogg" noloop
+    queue music "overture_loop.ogg" loop
+    return
+
 
 # The game starts here.
 
